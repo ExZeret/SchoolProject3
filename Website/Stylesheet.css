@@ -1,0 +1,231 @@
+* {
+    color: white;
+    font-family: monospace;
+    margin: 0%;
+    padding: 0%;
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+body {
+    height: 100vh;
+    width: 100vw;
+    background-color: black;
+    background-image: url(imgfolder/background1.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.main{
+    flex-direction: row;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.main .text {
+    margin-top: 5%;
+    background-color: black;
+    width: 10%;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.buttons {
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+    margin: 10%;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.buttons a {
+    margin-bottom: 10px;
+}
+
+.buttons a button {
+    border-radius: 8px;
+    padding: 10px;
+    border-color: white;
+    border-style: solid;
+    transition: 0.3s;
+    background-color: black;
+}
+
+.buttons a button:hover {
+    
+    color: black;
+    background-color: white;
+}
+
+
+.buttons1 {
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+}
+
+.buttons1 a {
+    margin-bottom: 10px;
+}
+
+.buttons1 a button {
+    border-radius: 8px;
+    padding: 10px;
+    border-color: white;
+    border-style: solid;
+    transition: 0.3s;
+    background-color: black;
+}
+
+.buttons1 a button:hover {
+    
+    color: black;
+    background-color: white;
+}
+
+.buttons2 {
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+}
+
+
+.buttons2 a {
+    margin-bottom: 10px;
+}
+
+.buttons2 a button {
+    border-radius: 8px;
+    padding: 10px;
+    border-color: white;
+    border-style: solid;
+    transition: 0.3s;
+    background-color: black;
+}
+
+.buttons2 a button:hover {
+    
+    color: black;
+    background-color: white;
+}
+
+
+h1 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(255, 255, 255);
+}
+
+.page {
+    color: rgb(255, 255, 255);
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.info {
+    margin-left: 60%;
+    margin-top: 10%;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgb(0, 0, 0) 0%, rgb(0, 0, 0) 35%, rgb(0, 0, 0) 100%);
+    /* change background color of info div here */
+    height: 90vh;
+    width: 30%;
+    border: 2px white;
+    border-style: solid;
+    border-radius: 10px;
+}
+
+.infome {
+    border: 10px;
+    background-color: transparent;
+    border-radius: 10px;
+}
+
+
+.infouni {
+    background-color: transparent;
+    border-radius: 10px;
+}
+
+.infouni h3{
+    padding-top: 100px;
+    background-color: transparent;
+    
+}
+
+.infome h3 {
+    padding-top: 50px;
+    background-color: transparent;
+    border-radius: 10px;
+}
+
+.infome p {
+    background-color: transparent;
+    padding: 40px;
+}
+
+.infouni p {
+    background-color: transparent;
+    padding: 40px;
+}
+
+h1 {
+    padding-top: 2%;
+}
+
+.images {
+    margin-left: 20%;
+    position: absolute;
+    margin-top: 10%;
+    height: 500px;
+    border-radius: 10px;
+}
+
+.resume {
+    width: 30%;
+    margin-top: 10%;
+    margin-left: 60%;
+    border: 2px white;
+    border-style: solid;
+    height: 90vh;
+    border-radius: 10px;
+    background-color: black;
+}
+
+.resume h3 {
+    background-color: transparent;
+    border-radius: 10px;
+    padding-top: 20px;
+    
+}
+
+.resume p {
+    background-color: transparent;
+    padding: 40px;
+}
+
+.background {
+    position: fixed;
+    z-index: -1;
+    top: 0;
+    height: 100vh;
+    width: 100vw;
+}
+
+.indextext {
+    background-color: black;
+    padding: 10px;
+    border-radius: 10px;
+}
